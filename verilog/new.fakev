@@ -1,0 +1,25 @@
+11
+in1 INPUT
+in2 INPUT
+and0 AND
+xor0 XOR
+init INPUT
+i0 INV
+or0 OR
+carry OUTPUT
+reset INPUT
+mux0 MUX
+out1 OUTPUT
+12
+in1 and0/A1
+in2 and0/A2
+in1 xor0/A1
+in2 xor0/A2
+init i0/I
+xor0/Z or0/A1
+i0/ZN or0/A2
+and0/Z carry
+and0/Z mux0/I0
+or0/Z mux0/I1
+reset mux0/S
+mux0/Z out1

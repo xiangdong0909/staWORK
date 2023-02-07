@@ -1,5 +1,5 @@
-#include <unordered_map>
 #include <queue>
+#include <unordered_map>
 
 #include "pin.hpp"
 
@@ -62,9 +62,9 @@ class Graph {
   Tclock t_;
   Cell* cell_;
   size_t cell_size_;
+  CellMap* cell_map_;
   Pin* pin_;
   size_t pin_size_;
-  CellMap* cell_map_;
   PinMap* pin_map_;
 };
 
